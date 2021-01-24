@@ -18,7 +18,6 @@ class App extends Component {
     }
   }
   trash(y) {
-    console.log(y);
     const { list } = this.state;
     list.splice(y, 1);
     this.setState({
